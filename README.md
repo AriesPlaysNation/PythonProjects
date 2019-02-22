@@ -6,3 +6,4 @@ Projects:
 <p>M03_Lab.py = Calculates shipping cost at a flat rate per poundage to the user, after entering how much their package weighs!</p>
 <p>M04_Lab.py = Calculating organism spawn rates on a daily basis by getting user input for starting organisms, spawn rate/day, and the total days the experiment is going on.</p>
 <p>M05_Lab.py = Calculating total price of a Coliseum's seating between four different classes. Each section of seating has a set price and the user inputs the total seats in each section. The output will show total price for each section as well as a total purchase of the entire Coliseum together.</p>
+<p>M06_Lab.py = Reads numbers from of a seperate text file within the directory and averages out the total numbers. This also starts the introduction of exception handling on top of input validation.</p>
