@@ -24,10 +24,11 @@ def main():
         article = infile.read()
 
         for ch in article:
-            if ch.isspace():
-                noWords += 1
-            if ch.endswith('.'):
-                noSent += 1
+            numWords = article.split()
+            numSent = article.split('\n')
+
+        noWords = len(numWords)
+        noSent = len(numSent)
 
         infile.close
 
@@ -36,9 +37,6 @@ def main():
     except Exception as err:
         print(err)
     else:
-        # Have to -1 because of last sentence reading a false sentence count.
-    
-        noSent -= 1
 
         # Calculate average words per line
     
